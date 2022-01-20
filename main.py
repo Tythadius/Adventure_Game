@@ -717,10 +717,10 @@ def path11():
     print("Have a great day.")
     time.sleep(c)
 
-    # removeFiles = input("To remove the files you just made, type 'Remove', DON'T MISSPELL.")
-    # if removeFiles == "Remove":
-    #     os.remove("/Users/DFT/Documents/Gamefile.txt")
-    #     os.remove("/Users/DFT/PycharmProjects/pythonProject/Gamefile2.txt")
+    removeFiles = input("To remove the files you just made, type 'Remove', DON'T MISSPELL.")
+    if removeFiles == "Remove":
+        os.remove("/Users/DFT/Documents/Gamefile.txt")
+        os.remove("/Users/DFT/PycharmProjects/pythonProject/Gamefile2.txt")
 
 
 print()
